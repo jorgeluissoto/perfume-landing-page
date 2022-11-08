@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 900px;
+}
+
+.main {
+    margin: 0px;
+    width: 50%;
+}
+
+.left-side {
+    background-color: white;
+    height: 665px;
+    width: 40%;
+    margin-right: 85px;
+    padding-left: 5px;
+    padding-top: 10px;
+    position: relative;
+    float: right;
+}
+
+.top-header {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: "Merriweather";
+    font-weight: 500,700;
+    letter-spacing: 0.5rem;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.main-header {
+    font-size: 3.2rem;
+    font-family: "Merriweather";
+    margin-left: 20px;
+}
+
+.main-para {
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    font-family: 'Fraunces';
+    width: 65%;
+    font-weight: 700;
+    line-height: 2;
+    margin-left: 20px;
+}
+
+.main-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-family: 'Fraunces';
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.lower-price {
+    color: hsl(228, 12%, 48%);
+    position: relative;
+    font-size: 16px;
+    left: 135px;
+    bottom: 58px;
+    text-decoration: line-through;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    background: hsl(158, 36%, 37%);
+    padding: 10px 70px 10px 70px;
+    text-decoration: none;
+    margin-left: 30px;
+    letter-spacing: 0.1rem;
+}
+  
+.btn:hover {
+    background: #017070;
+    text-decoration: none;
+}
